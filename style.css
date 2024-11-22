@@ -1,0 +1,143 @@
+body{
+  background-image: url(imgs/alien.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff0e2;
+  height: 100%;
+  align-items: center;
+  margin: 0px;
+ }
+ /*Movie Title seen on poster*/
+ .title{
+  color: #fae6d3;
+  font-size: 50px;
+  letter-spacing: 70px;
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+ }
+  /*Tag line on poster*/
+  h1{
+    color: #fae6d3;
+    font-family: "Inter Tight", serif;
+    font-size: large;
+    position: absolute;
+    top: 1000px;
+    left: 395px;
+  }
+  /*Movie Title at the top of credits*/
+  .credits-title{
+    font-family: "Mona Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: black;
+    position: absolute;
+    left: 425px;
+    bottom: 200px;
+    }
+
+  footer{ 
+    font-family:"Mona Sans", sans-serif; 
+    color: black;
+    position: absolute;
+    top:1525px;
+    height: 200px;
+    width: 1050px;;
+    }
+    /*20th Century fox copyright- bottom right of poster*/
+    footer > .copyright{
+      font-size: 35%;
+      position: absolute;
+      left: 930px;
+      bottom: 230px;
+    }
+    /*20th Century fox presents- top left of movie title*/
+    footer > .fox-presents{
+      font-size: 45%;
+      font-weight: 200;
+      position: absolute;
+      bottom: 215px;
+      left: 250px;
+    }
+  /*Cast and crew names- I was unsure how to get the names spread across the entire footer*/
+  footer > div.credits{
+    text-align: center;
+    word-spacing: 4px;
+    }
+    /*Changing the word sizing in the cast and crew credits*/
+    .small{
+      font-size: x-small;
+    }
+
+    .medium{
+      font-size: small;
+    }
+
+    .large{
+      font-size: large;
+      font-weight: 400;
+    }
+    /*Motion picture soundtrack in border*/
+    footer > .motion-picture{
+      font-size: xx-small;
+      font-weight: 200;
+      border-style: solid;
+      border-width: 1px;
+      width: fit-content;
+      position: absolute;
+      left: 270px;
+      padding-left: 7px;
+      padding-right: 7px;
+      }
+      /*warner book in border*/
+      footer > .warner-book{
+        font-size: x-small;
+        font-weight: 200;
+        border-style: solid;
+        width: fit-content;
+        border-width: 1px;
+        position: absolute;
+        left: 630px;
+        padding-left: 7px;
+        padding-right: 7px;
+        line-height: 0.4em;
+      }
+      /*20th Century Fox logo*/
+      footer > .logos > img{
+        height: 30px;
+        width: auto;
+        position: absolute;
+        top: 270px;
+        left: 580px;
+      }
+      /*Dolby Stereo logo*/
+      footer > .dolby > img{
+        height: 30px;
+        width: auto;
+        position: absolute;
+        top: 270px;
+        left: 400px;
+      }
+      /*In selected theatres- below dolby stereo logo/ light font weight*/
+      footer > .theatres > h6{
+        font-size: 60%;
+        font-weight: 200;
+        position: absolute;
+        top: 280px;
+        left: 428px;
+      }
+      /*Movie trailer link*/
+      footer > .trailer > a{
+        position: absolute;
+        left: 750px;
+      }
+
+ 
+
+  
+
+
+
